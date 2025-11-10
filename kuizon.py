@@ -3,12 +3,12 @@
 markdaniel_x = 0
 markdaniel_y = 0
 
-kuizon_x = 14
-kuizon_y = 3
+treasure_x = 14
+treasure_y = 3
 
 game_running = True
 
-print(f"Find your last name at ({kuizon_x}, {kuizon_y})!")
+print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
 while game_running:
     move = input("Enter move (w/a/s/d or Q to quit): ").lower()
 
@@ -29,6 +29,6 @@ while game_running:
 
     print(f"Player position: ({markdaniel_x}, {markdaniel_y})")
 
-    if markdaniel_x == kuizon_x and markdaniel_y == kuizon_y:
-        print(f"Youu winn!! Congratss!!")
+    if markdaniel_x == treasure_x and markdaniel_y == treasure_y:
+        print(f"CONGRATSS! YOU FOUND THE TREASURE!!! You're richh  now!!")
         game_running = False
