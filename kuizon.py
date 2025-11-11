@@ -1,4 +1,5 @@
 #first name (markdaniel) last name (kuizon)
+print("Welcome to Kuizon's Maze")
 
 markdaniel_x = 0
 markdaniel_y = 0
